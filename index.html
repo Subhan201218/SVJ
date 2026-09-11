@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <link rel="stylesheet" href="style.css" />
+    <header>
+      <h1></h1>
+      <ul>
+        <li><a href="#HOME">HOME</a></li>
+        <li><a href="#ABOUT">ABOUT</a></li>
+        <li><a href="#LOCATION">LOCATION</a></li>
+        <li><a href="#CONTACT">CONTACT</a></li>
+      </ul>
+      <div class="button">
+        <button>Get App</button>
+      </div>
+    </header> 
+
+    <div class="banner" id="HOME">
+      <div class="font">
+        <h1>
+          <!-- Aventador SVJ -->
+        </h1>
+      </div>
+    </div>
+
+    <div class="main" id="ABOUT">
+      <!-- <div class="bg"></div> -->
+      <div class="card1"></div>
+      <div class="card2"></div>
+      <div class="card3"></div>
+    </div>
+    <div class="about">
+      <div class="left" id="LOCATION">
+        <h1>Our Location</h1>
+        <p>
+          Welcome to Lamborghini München, your premier authorized dealership in
+          the heart of Munich, Germany. Located at Leonrodstraße 44, our
+          state-of-the-art showroom delivers the ultimate luxury experience,
+          featuring the latest new models alongside a curated selection of
+          certified pre-owned supercars. Beyond our high-tech digital
+          configuration tools and custom Ad Personam personalization lounge, we
+          are dedicated to providing world-class after-sales care, specialized
+          maintenance, and genuine accessories. Visit our showroom today or
+          connect with our expert team to experience the unmatched passion,
+          performance, and precision of the Lamborghini brand. .
+        </p>
+      </div>
+      <div class="right">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10646.500203715379!2d11.5236140657978!3d48.15603343785502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e7612451b4235%3A0xaef4c3bf947e9a84!2sLamborghini%20M%C3%BCnchen!5e0!3m2!1sen!2s!4v1788599805027!5m2!1sen!2s"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin"
+        ></iframe>
+      </div>
+    </div>
+    <script>
+      window.addEventListener("scroll", function () {
+        const header = document.querySelector("header");
+
+        if (window.scrollY > 50) {
+          header.classList.add("scrolled");
+        } else {
+          header.classList.remove("scrolled");
+        }
+      });
+    </script>
+    <div class="contact" id="CONTACT">
+      <div class="left">
+        <h1>Contact US</h1>
+        <ul>
+          <li><p>&#9742; Call +49 89 520390 </p></li>
+          <li><p>&#128236; Email us: info@example.com</p></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="right">
+        <form>
+          <input type="text" placeholder="Enter Your Namee" required checked /><br><br>
+          <input type="email" placeholder="Enter Your Email" required checked inputmode="email"/><br><br>
+          <input type="number " placeholder="Enter Your Password" required checked inputmode="numeric" /><br><br>  
+        </form>
+      </div>
+    </div>
+    <footer>
+      &copy; 2026 M.Subhan Lamborgini SVJ project.All rights reserved 
+    </footer>
+  </body>
+</html>
+  
