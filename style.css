@@ -387,4 +387,7 @@ footer {
     margin-bottom: 60px;
     position: unset;
   }
+  footer{
+    width: 100%;
+  }
 }
