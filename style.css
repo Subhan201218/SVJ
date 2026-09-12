@@ -7,7 +7,9 @@
   margin: 0;
   list-style: none;
 }
-html,body{
+html,
+body {
+  background-color: black;
   overflow-x: hidden;
 }
 html {
@@ -374,12 +376,10 @@ footer {
     box-sizing: border-box;
   }
   .right1 {
-    margin-left: 50px;
-    margin-right: 50px;
-
+    width: 100%;
   }
 
-  .left1 {  
+  .left1 {
     padding-top: 100px;
     background-color: black;
     width: 95%;
@@ -387,7 +387,7 @@ footer {
     margin-bottom: 60px;
     position: unset;
   }
-  footer{
+  footer {
     width: 100%;
   }
 }
