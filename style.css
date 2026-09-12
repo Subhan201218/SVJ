@@ -368,12 +368,14 @@ footer {
     gap: 20px;
   }
   .right1 form input {
-    border-radius: 2em;
+   border-radius: 2em;
     width: 100%;
     border: none;
-    padding: 15px;
+    padding: 18px 20px;  
+    font-size: 16px;
     position: static;
     box-sizing: border-box;
+    margin-bottom: 15px;
   }
   .right1 {
     width: 100%;
