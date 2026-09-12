@@ -8,7 +8,7 @@
   list-style: none;
 }
 html,body{
-  overflow-x: auto;
+  overflow-x: hidden;
 }
 html {
   scroll-behavior: smooth;
